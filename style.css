@@ -197,9 +197,12 @@ a:hover {
 }
 
 /* --- Instrutores --- */
-#instrutores {
-    padding: 4rem 0;
-    background-color: var(--neutral-light);
+.card-instrutor img {
+  width: 150px;         /* ajuste conforme necessário */
+  height: 150px;        /* ajuste conforme necessário */
+  object-fit: cover;    /* faz o corte proporcional */
+  border-radius: 50%;   /* opcional, para deixar a imagem redonda */
+  margin-bottom: 16px;  /* espaço abaixo da imagem */
 }
 
 #instrutores h2 {
