@@ -309,3 +309,16 @@ footer a {
 footer a:hover {
     color: var(--ultra-light);
 }
+
+#instrutores .card {
+  height: 100%; /* Mantém o card ocupando toda a altura da coluna */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+#instrutores .card-img-top {
+  width: 100%;
+  height: 220px;      /* Defina a altura que preferir */
+  object-fit: cover;  /* Corta e centraliza a imagem para caber no espaço */
+}
